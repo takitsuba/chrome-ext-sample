@@ -1,0 +1,12 @@
+{
+  "name": "Alert Sample",
+  "description": "Chrome Extension Alert Sample",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.com/*"],
+      "js": ["show_alert.js"]
+    }
+  ]
+}
